@@ -175,7 +175,7 @@
 
     <!-- transport section start -->
 
-    <section id="transport" class="container mx-auto pb-4 bg-[#F7F8F8]">
+    <section id="transport" class="container mx-auto  bg-[#F7F8F8]">
       <div class="text-center text-5xl font-bold leading-[48px] text-black py-8">
         <h1>Ride Transport</h1>
         <p class="text-center text-sm text-black p-4">
@@ -194,7 +194,7 @@
               </div>
             </div>
             <div>
-              <button id="seatLeft" class="btn">
+              <button id="seatsLeft" class="btn">
                 <img src="img/seat-gray.png" alt="">
                 40 seats left
               </button>
@@ -248,7 +248,7 @@
 
           <!-- seat items  -->
 
-          <div class="h-[820px] rounded-lg bg-gray-200 lg:col-span-2 px-[100px] pb-[10px]">
+          <div class="h-[940px] rounded-lg bg-gray-200 lg:col-span-2 px-[100px] pb-[10px]">
 
             <div class="pt-4 pb-4">
               <h1>Select Your Seat</h1>
@@ -272,221 +272,219 @@
               </button>
             </div>
 
-            <div class="flex justify-between  pt-4 ">
-
-              <div class="">
-
-                <button class="btn btn-outline px-8 py-4 hover:bg-[#1DD100]">A</button>
-                </div>
-                
-                  <div class="flex space-x-8">
-
-                    <button id="a1" class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">A1</button>
-                    <button id="a2" class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">A2</button>
-                    
-                    
-    
-                  </div>
-                  <div  class="flex space-x-8">
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">A3</button>
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">A4</button>
-    
-                  </div>
-              
-            </div>
-            <div class="flex justify-between  pt-4 ">
-
-              <div class="">
-
-                <button class="btn btn-outline px-8 py-4 hover:bg-[#1DD100]">B</button>
+            <div class="flex justify-between  pt-4 " id="seatRowA">
+  
+              <div>
+                <button class="seatRow">A</button>
                 </div>
                 
                   <div class="flex space-x-8 ">
 
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">B1</button>
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">B2</button>
+                    <button class="btn btn-outline px-10" data-row="A" data-seat="1">A1</button>
+                    <button class="btn btn-outline px-10" data-row="A" data-seat="2">A2</button>
                     
     
                   </div>
                   <div  class="flex space-x-8">
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">B3</button>
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">B4</button>
+                    <button class="btn btn-outline px-10" data-row="A" data-seat="3">A3</button>
+                    <button class="btn btn-outline px-10" data-row="A" data-seat="4">A4</button>
     
                   </div>
               
             </div>
+            <div class="flex justify-between  pt-4 " id="seatRowB">
 
-            <div class="flex justify-between  pt-4 ">
+              <div>
 
-              <div class="">
-
-                <button class="btn btn-outline px-8 py-4 hover:bg-[#1DD100]">C</button>
+                <button class="seatRow">B</button>
                 </div>
                 
                   <div class="flex space-x-8 ">
 
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">C1</button>
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">C2</button>
+                    <button class="btn btn-outline px-10" data-row="B" data-seat="1">B1</button>
+                    <button class="btn btn-outline px-10" data-row="B" data-seat="2">B2</button>
                     
     
                   </div>
                   <div  class="flex space-x-8">
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">C3</button>
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">C4</button>
+                    <button class="btn btn-outline px-10" data-row="B" data-seat="3">B3</button>
+                    <button class="btn btn-outline px-10" data-row="B" data-seat="4">B4</button>
     
                   </div>
               
             </div>
 
-            <div class="flex justify-between  pt-4 ">
+            <div class="flex justify-between  pt-4 " id="seatRowC">
 
-              <div class="">
+              <div>
 
-                <button class="btn btn-outline px-8 py-4 hover:bg-[#1DD100]">D</button>
+                <button class="seatRow">C</button>
                 </div>
                 
                   <div class="flex space-x-8 ">
 
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">D1</button>
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">D2</button>
+                    <button class="btn btn-outline px-10" data-row="C" data-seat="1">C1</button>
+                    <button class="btn btn-outline px-10" data-row="C" data-seat="2">C2</button>
                     
     
                   </div>
                   <div  class="flex space-x-8">
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">D3</button>
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">D4</button>
+                    <button class="btn btn-outline px-10" data-row="C" data-seat="3">C3</button>
+                    <button class="btn btn-outline px-10" data-row="C" data-seat="4">C4</button>
     
                   </div>
               
             </div>
 
-            <div class="flex justify-between  pt-4 ">
+            <div class="flex justify-between  pt-4 " id="seatRowD">
 
-              <div class="">
+              <div>
 
-                <button class="btn btn-outline px-8 py-4 hover:bg-[#1DD100]">E</button>
+                <button class="seatRow">D</button>
                 </div>
                 
                   <div class="flex space-x-8 ">
 
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">E1</button>
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">E2</button>
+                    <button class="btn btn-outline px-10" data-row="D" data-seat="1">D1</button>
+                    <button class="btn btn-outline px-10" data-row="D" data-seat="2">D2</button>
                     
     
                   </div>
                   <div  class="flex space-x-8">
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">E3</button>
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">E4</button>
+                    <button class="btn btn-outline px-10" data-row="D" data-seat="3">D3</button>
+                    <button class="btn btn-outline px-10" data-row="D" data-seat="4">D4</button>
     
                   </div>
               
             </div>
 
-            <div class="flex justify-between  pt-4 ">
+            <div class="flex justify-between  pt-4 " id="seatRowE">
 
-              <div class="">
+              <div>
 
-                <button class="btn btn-outline px-8 py-4 hover:bg-[#1DD100]">F</button>
+                <button class="seatRow">E</button>
                 </div>
                 
                   <div class="flex space-x-8 ">
 
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">F1</button>
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">F2</button>
+                    <button class="btn btn-outline px-10" data-row="E" data-seat="1">E1</button>
+                    <button class="btn btn-outline px-10" data-row="E" data-seat="2">E2</button>
                     
     
                   </div>
                   <div  class="flex space-x-8">
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">F3</button>
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">F4</button>
+                    <button class="btn btn-outline px-10" data-row="E" data-seat="3">E3</button>
+                    <button class="btn btn-outline px-10" data-row="E" data-seat="4">E4</button>
     
                   </div>
               
             </div>
 
-            <div class="flex justify-between  pt-4 ">
+            <div class="flex justify-between  pt-4 " id="seatRowF">
 
-              <div class="">
+              <div>
 
-                <button class="btn btn-outline px-8 py-4 hover:bg-[#1DD100]">G</button>
+                <button class="seatRow">F</button>
                 </div>
                 
                   <div class="flex space-x-8 ">
 
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">G1</button>
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">G2</button>
+                    <button class="btn btn-outline px-10" data-row="F" data-seat="1">F1</button>
+                    <button class="btn btn-outline px-10" data-row="F" data-seat="2">F2</button>
                     
     
                   </div>
                   <div  class="flex space-x-8">
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">G3</button>
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">G4</button>
+                    <button class="btn btn-outline px-10" data-row="F" data-seat="3">F3</button>
+                    <button class="btn btn-outline px-10" data-row="F" data-seat="4">F4</button>
     
                   </div>
               
             </div>
 
-            <div class="flex justify-between  pt-4 ">
+            <div class="flex justify-between  pt-4 " id="seatRowG">
 
-              <div class="">
+              <div>
 
-                <button class="btn btn-outline px-8 py-4 hover:bg-[#1DD100]">H</button>
+                <button class="seatRow">G</button>
                 </div>
                 
                   <div class="flex space-x-8 ">
 
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">H1</button>
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">H2</button>
+                    <button class="btn btn-outline px-10" data-row="G" data-seat="1">G1</button>
+                    <button class="btn btn-outline px-10" data-row="G" data-seat="2">G2</button>
                     
     
                   </div>
                   <div  class="flex space-x-8">
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">H3</button>
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">H4</button>
+                    <button class="btn btn-outline px-10" data-row="G" data-seat="3">G3</button>
+                    <button class="btn btn-outline px-10" data-row="G" data-seat="4">G4</button>
     
                   </div>
               
             </div>
 
-            <div class="flex justify-between  pt-4 ">
+            <div class="flex justify-between  pt-4 " id="seatRowH">
 
-              <div class="">
+              <div>
 
-                <button class="btn btn-outline px-8 py-4 hover:bg-[#1DD100]">I</button>
+                <button class="seatRow">H</button>
                 </div>
                 
                   <div class="flex space-x-8 ">
 
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">I1</button>
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">I2</button>
+                    <button class="btn btn-outline px-10" data-row="H" data-seat="1">H1</button>
+                    <button class="btn btn-outline px-10" data-row="H" data-seat="2">H2</button>
                     
     
                   </div>
                   <div  class="flex space-x-8">
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">I3</button>
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">I4</button>
+                    <button class="btn btn-outline px-10" data-row="H" data-seat="3">H3</button>
+                    <button class="btn btn-outline px-10" data-row="H" data-seat="4">H4</button>
     
                   </div>
               
             </div>
 
-            <div class="flex justify-between  pt-4 ">
+            <div class="flex justify-between  pt-4 " id="seatRowI">
 
-              <div class="">
+              <div>
 
-                <button class="btn btn-outline px-8 py-4 hover:bg-[#1DD100]">J</button>
+                <button class="seatRow">I</button>
                 </div>
                 
                   <div class="flex space-x-8 ">
 
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">J1</button>
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">J2</button>
+                    <button class="btn btn-outline px-11" data-row="I" data-seat="1">I1</button>
+                    <button class="btn btn-outline px-10" data-row="I" data-seat="2">I2</button>
                     
     
                   </div>
                   <div  class="flex space-x-8">
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">J3</button>
-                    <button class="btn seat px-8 py-4 hover:bg-[#1DD100] border border-gray-600">J4</button>
+                    <button class="btn btn-outline px-11" data-row="I" data-seat="3">I3</button>
+                    <button class="btn btn-outline px-11" data-row="I" data-seat="4">I4</button>
+    
+                  </div>
+              
+            </div>
+
+            <div class="flex justify-between  pt-4 " id="seatRowJ">
+
+              <div>
+
+                <button class="seatRow">J</button>
+                </div>
+                
+                  <div class="flex space-x-8 ">
+
+                    <button class="btn btn-outline px-11" data-row="J" data-seat="1">J1</button>
+                    <button class="btn btn-outline px-11" data-row="J" data-seat="2">J2</button>
+                    
+    
+                  </div>
+                  <div  class="flex space-x-8">
+                    <button class="btn btn-outline px-11" data-row="J" data-seat="3">J3</button>
+                    <button class="btn btn-outline px-11" data-row="J" data-seat="4">J4</button>
     
                   </div>
               
@@ -494,55 +492,57 @@
 
           </div>
 
-          <!-- form and cart  -->
-          <div class="h-[820px] rounded-lg bg-gray-200 ">
-            <div class="divide-y divide-dashed divide-lime-500">
-              <h1 class="text-black text-left px-4 pt-4">Select Your Seat</h1>
-            </div>
-            <div class="px-12">
-              <div class="overflow-x-auto pt-4 ">
-                <table class="table">
-                  <!-- head -->
-                  <thead>
-                    <tr>
 
-                      <th>Seat</th>
-                      <th>Class</th>
-                      <th class="text-right">Price</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <!-- row 1 -->
-                    <tr>
+<!-- form and cart  -->
+<div class="h-[940px] rounded-lg bg-gray-200 ">
+  <div class="divide-y divide-dashed divide-lime-500">
+    <h1  class="text-black text-left px-4 pt-4 text-2xl font-bold">Select Your Seat</h1>
+  </div>
+  <div class="divider"></div>
+  <div class="px-12">
+    <div class="overflow-x-auto pt-4">
+      <table id="selectedSeats" class="table">
+        <!-- head -->
+        <thead>
+          <tr>
 
-                      <td>C2</td>
-                      <td>Economoy</td>
-                      <td class="text-right">550</td>
-                    </tr>
-                    <!-- row 2 -->
-                    <tr>
+            <th>Seat</th>
+            <th>Class</th>
+            <th class="text-right">Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- row 1 -->
+          <tr>
 
-                      <td>C2</td>
-                      <td>Economoy</td>
-                      <td class="text-right">550</td>
-                    </tr>
-                    <!-- row 3 -->
-                    <tr>
+            <td>C2</td>
+            <td>Economoy</td>
+            <td class="text-right">550</td>
+          </tr>
+          <!-- row 2 -->
+          <tr>
 
-                      <td>C2</td>
-                      <td>Economoy</td>
-                      <td class="text-right">550</td>
-                    </tr>
-                    <!-- row 4 -->
-                    <tr class="border-t-4 border-[#1DD100]">
+            <td>C2</td>
+            <td>Economoy</td>
+            <td class="text-right">550</td>
+          </tr>
+          <!-- row 3 -->
+          <tr>
 
-                      <td>Total Price</td>
-                      <td></td>
-                      <td class="text-right">BDT 1100</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+            <td>C2</td>
+            <td>Economoy</td>
+            <td class="text-right">550</td>
+          </tr>
+          <!-- row 4 -->
+          <tr class="border-t-4 border-indigo-500">
+
+            <td>Total Price</td>
+            <td></td>
+            <td class="text-right">BDT 1100</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
               <!-- Have any copupon?  -->
               <div>
 
@@ -639,7 +639,7 @@
   <footer class="container mx-auto footer p-10 bg-[#030712] text-neutral-content justify-between">
     <aside>
      <h1 class="text-3xl font-extrabold text-white">Ride Transport</h1>
-      <p>P-Ticket is a digital platform to make your<br>daily commuting better.</p>
+      <p>Ride Transport is a digital platform to make your<br>daily commuting better.</p>
     </aside> 
     <nav>
       <h6 class="footer-title text-white">Download our app</h6> 
