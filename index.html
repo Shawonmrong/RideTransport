@@ -27,7 +27,7 @@
 
   <!-- nav bar and menu  -->
 
-  <header>
+  <header class="header-option pt-4 pb-4">
     <div class="navbar bg-base-100 container mx-auto">
       <div class="navbar-start">
         <div class="dropdown">
@@ -68,102 +68,110 @@
 
   <main>
     <!-- banner section start -->
-    <section class="container mx-auto rounded-[36px] w-full bg-cover bg-center"
+    <section class="container mx-auto rounded-[36px] w-full bg-cover bg-center pb-16 "
       style="background-image: url('img/banner.png');">
-      <div class="h-[80vh] flex items-center">
-        <div class="container mx-auto text-center text-white">
-          <h1 class="text-5xl font-medium mb-2">Welcome To My Transport</h1>
-          <h1 class="text-5xl font-medium mb-2">End-to-End Travel with Us</h1>
-          <p class="text-xl mb-12 mx-auto">Guiding Your Path, One Mile at a Time. Experience Seamless Travel with<br>
+      <div class="h-[80vh] flex items-center ">
+        <div class="container mx-auto text-center">
+          <h1 class="text-[64px] font-medium mb-2 text-[#FFFFFF]">Welcome To Ride Transport</h1>
+          <h1 class="text-[64px] font-medium mb-2 text-[#1DD100]">End-to-End Travel with Us</h1>
+          <p class="text-[18px] mb-12 mx-auto text-[#FFFFFF]">Guiding Your Path, One Mile at a Time. Experience Seamless Travel with<br>
             Our Reliable
             Service, Ensuring Comfort, Safety, and Convenience for Every Passenger on Board.</p>
-          <a href="#transport" class="bg-indigo-500 text-white py-4 px-12 rounded-full hover:bg-indigo-600">Buy
+          <a href="#transport" class="btn bg-[#1DD100] text-black text-center py-4 px-12  hover:bg-[#FFBF0F]">Buy
             Tickets</a>
         </div>
       </div>
-      <div class="flex justify-center gap-4 py-4">
-        <div class="card card-side bg-base-100 shadow-xl">
-          <figure><img src="" alt="Movie" /></figure>
-          <div class="card-body">
-            <h2 class="card-title">New movie is released!</h2>
-            <p>Click the button to watch on Jetflix app.</p>
-            <div class="card-actions justify-end">
-            </div>
-          </div>
-        </div>
-        <div class="card card-side bg-base-100 shadow-xl">
-          <figure><img src="" alt="Movie" /></figure>
-          <div class="card-body">
-            <h2 class="card-title">New movie is released!</h2>
-            <p>Click the button to watch on Jetflix app.</p>
-            <div class="card-actions justify-end">
-            </div>
-          </div>
-        </div>
-        <div class="card card-side bg-base-100 shadow-xl">
-          <figure><img src="" alt="Movie" /></figure>
-          <div class="card-body">
-            <h2 class="card-title">New movie is released!</h2>
-            <p>Click the button to watch on Jetflix app.</p>
-            <div class="card-actions justify-end">
-            </div>
-          </div>
-        </div>
 
-      </div>
     </section>
+    <!-- extra option  -->
+    <section class="container mx-auto rounded-[36px] w-2/3 ">
+      <div class="grid grid-cols-1 gap-4 content-center   mt-[-50px]  lg:grid-cols-3 lg:gap-8">
+        <div class="card card-side bg-base-100 shadow-xl border-b-[#1DD100] border-b-4 ">
+          <figure><img src="img/people.png" class="px-8" alt="Movie" /></figure>
+          <div class="card-body">
+            <h2 class="card-title text-[36px] font-black">500K+</h2>
+            <p class="text-[18px] text-[#03071299]">Registered users</p>
+            <div class="card-actions justify-end">
+            </div>
+          </div>
+        </div>
+        <div class="card card-side bg-base-100 shadow-xl border-b-[#1DD100] border-b-4 ">
+          <figure><img src="img/ticket-cupon.png" class="px-8" alt="Movie" /></figure>
+          <div class="card-body">
+            <h2 class="card-title text-[36px] font-black">1.7 lacks</h2>
+            <p class="text-[18px] text-[#03071299]">Tickets sold</p>
+            <div class="card-actions justify-end">
+            </div>
+          </div>
+        </div>
+        <div class="card card-side bg-base-100 shadow-xl border-b-[#1DD100] border-b-4 ">
+          <figure><img src="img/stoppage.png" class="px-8" alt="Movie" /></figure>
+          <div class="card-body">
+            <h2 class="card-title text-[36px] font-black">80K+</h2>
+            <p class="text-[18px] text-[#03071299]">Rental partners</p>
+            <div class="card-actions justify-end">
+            </div>
+          </div>
+        </div>   
+      </div>
+
+    </section>
+
     <!-- banner section end -->
 
     <!-- Best offers for you section start -->
-    <section class="container mx-auto pb-16">
+    <section class="container mx-auto pt-8 pb-16">
       <div class="text-center text-5xl font-bold leading-[48px] text-black py-8">
         <h1>Best offers for you</h1>
       </div>
-      <div class="flex flex-row justify-center gap-x-4">
 
-        <div class="flex flex-row items-center divide-x divide-dashed ">
-          <div class="purchase-1 bg-[#FFBF0F] h-[200px] p-8  rounded-tr-[45px]">
-            <h1>15% OFF
-              
-            </h1>
-            <p>on your next purchase
-              use by January 2024</p>
+      <!-- coupon option  -->
+      <div id="coupon" class="grid grid-cols-1 gap-4 rounded-lg lg:grid-cols-2 lg:gap-8 pb-16">
 
-          </div>
+        <!-- NEW15 Coupon Code -->
 
-
-          <div class="bg-[#FFBF0F] h-[200px] p-8 rounded-tl-[45px]">
-            <h1>NEW15
-              
-            </h1>
-            <p>Coupon Code</p>
+        <div class="h-[250px] flex items-center justify-center  gap-8 rounded-lg bg-[#FFBF0F]  pt-12 pb-12">
+          <div class=" px-12 py-8">
+            <h1 class="text-[40px] font-black">15% OFF</h1>
+            <p class="text-[18px] text-black font-black">on your next purchase</p>
+            <p class="text-[16px] text-[#030712CC]">use by January 2024</p>
 
           </div>
+          
 
+          <div class=" px-12 py-8">
+            <h1 id="new15" class="text-[40px] font-bold ml-4">NEW15</h1>
+            <p class="text-[22px] text-black font-black ml-4">Coupon Code</p>
+
+          </div>
         </div>
 
-        <div class="flex flex-row items-center divide-x divide-dashed">
-          <div class="bg-[#F78C9C] h-[200px] p-8  rounded-tr-[45px]">
-            <h1>20% OFF
-              
-            </h1>
-            <p>on your next purchase
-              use by January 2024</p>
+        <!-- COUPLE20 Coupon Code -->
+
+        <div class="h-[250px] flex items-center justify-center  gap-8 rounded-lg bg-[#F78C9C]  pt-12 pb-12">
+          <div class=" px-12 py-8">
+            <h1 class="text-[40px] font-black">20% OFF</h1>
+            <p class="text-[18px] text-black font-black">on your next purchase</p>
+            <p class="text-[16px] text-[#030712CC]">use by January 2024</p>
 
           </div>
-          <div class="bg-[#F78C9C] h-[200px] p-8 rounded-tl-[45px]">
-            <h1>COUPLE20
-              
-            </h1>
-            <p>Coupon Code</p>
+          
+
+          <div class=" px-12 py-8">
+            <h1 id="couple20" class="text-[40px] font-bold ml-4">COUPLE20</h1>
+            <p class="text-[22px] text-black font-black ml-4">Coupon Code</p>
 
           </div>
-
         </div>
-
 
 
       </div>
+
+
+      
+
+              <!-- button of best offers section  -->
+
       <div class="text-center   text-black py-8">
         <button class="btn btn-wide text-[20px] font-bold text-lime-500">See All Offers</button>
       </div>
