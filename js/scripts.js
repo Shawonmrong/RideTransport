@@ -68,3 +68,4 @@ document.addEventListener('DOMContentLoaded', function () {
         seatsLeftElement.innerText = `${seatsLeft} seats left`;
     }
 });
+
