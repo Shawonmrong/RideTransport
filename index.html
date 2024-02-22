@@ -201,8 +201,8 @@
 
 
       <!-- Ride transport 2nd div  -->
-      <div class="grid grid-cols-1  lg:grid-cols-3 divide-x divide-dashed divide-lime-500">
-        <div class="h-[300px] rounded-lg bg-gray-200 lg:col-span-2  ">
+      <div class="grid grid-cols-1 lg:grid-cols-3  mx-auto w-3/4 pb-4 divide-x divide-dashed divide-lime-500">
+        <div class=" rounded-lg bg-gray-200 lg:col-span-2  ">
           <div class="flex justify-between pt-8 px-16">
             <div class="flex items-start gap-4">
               <img src="img/bus-logo.png" alt="" />
@@ -245,16 +245,16 @@
               </table>
             </div>
           </div>
-          <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 px-16 pt-8">
+          <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 mx-auto w-3/4 pt-8 pb-12">
 
             <div class="rounded-lg bg-gray-200">
-              <button class="btn btn-wide">Boarding Point - Laxmipur</button>
+              <button class="btn ">Boarding Point - Laxmipur</button>
             </div>
             <div class="rounded-lg bg-gray-200">
-              <button class="btn btn-wide">Dropping Point - Bogura</button>
+              <button class="btn ">Dropping Point - Bogura</button>
             </div>
             <div class="rounded-lg bg-gray-200">
-              <button class="btn btn-wide">Est. Time - 11 Hour</button>
+              <button class="btn ">Est. Time - 11 Hour</button>
             </div>
             
             
@@ -263,7 +263,7 @@
         </div>
 
 
-        <div class="grid justify-items-center content-center  h-[300px] rounded-lg bg-gray-200 text-center">
+        <div class="grid justify-items-center content-center   rounded-lg bg-gray-200 text-center">
           <img src="img/fare.png" alt="">
           <h1 id="perSeatPrice" class="text-2xl text-[#030712]">550 Taka</h1>
           <p class="text-xl">Per Seat</p>
@@ -271,15 +271,15 @@
       </div>
       <!-- transport main option  -->
 
-      <div class="container mx-auto pb-4 bg-[#ffffff] my-1 ">
+      <div class="container mx-auto pb-4 bg-[#ffffff] my-1 mx-auto w-3/4">
         <div class="grid grid-cols-1  lg:grid-cols-3 divide-x divide-dashed divide-lime-500">
 
           <!-- seat items  -->
 
-          <div class="h-[940px] rounded-lg bg-gray-200 lg:col-span-2 px-[100px] pb-[10px]">
+          <div class="h-[940px] rounded-lg bg-gray-200 lg:col-span-2  px-[100px] pb-[10px]">
 
             <div class="pt-4 pb-4">
-              <h1>Select Your Seat</h1>
+              <h1 class="text-black text-left px-4 pt-4 text-2xl font-bold">Select Your Seat</h1>
             </div>
             <div class="flex justify-between pb-4">
               <button id="availableSeat" class="btn">
@@ -292,7 +292,7 @@
               </button>
 
             </div>
-            <div class="container mx-auto  flex justify-end">
+            <div class="container mx-auto  flex justify-end ">
               <button class="btn">
                 <svg width="26.000000" height="26.000000" viewBox="0 0 26 26" fill="none"
                   xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -306,20 +306,20 @@
 
             <div class="flex justify-between  pt-4 " id="seatRowA">
 
-              <div>
+              <div class="flex justify-around  space-x-8 ">
                 <button class="seatRow">A</button>
               </div>
 
-              <div class="flex space-x-8 ">
+              <div class="flex justify-around space-x-4 ">
 
-                <button class="btn btn-outline px-10" data-row="A" data-seat="1">A1</button>
-                <button class="btn btn-outline px-10" data-row="A" data-seat="2">A2</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="A" data-seat="1">A1</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="A" data-seat="2">A2</button>
 
 
               </div>
               <div class="flex space-x-8">
-                <button class="btn btn-outline px-10" data-row="A" data-seat="3">A3</button>
-                <button class="btn btn-outline px-10" data-row="A" data-seat="4">A4</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="A" data-seat="3">A3</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="A" data-seat="4">A4</button>
 
               </div>
 
@@ -333,14 +333,14 @@
 
               <div class="flex space-x-8 ">
 
-                <button class="btn btn-outline px-10" data-row="B" data-seat="1">B1</button>
-                <button class="btn btn-outline px-10" data-row="B" data-seat="2">B2</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="B" data-seat="1">B1</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="B" data-seat="2">B2</button>
 
 
               </div>
               <div class="flex space-x-8">
-                <button class="btn btn-outline px-10" data-row="B" data-seat="3">B3</button>
-                <button class="btn btn-outline px-10" data-row="B" data-seat="4">B4</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="B" data-seat="3">B3</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="B" data-seat="4">B4</button>
 
               </div>
 
@@ -355,14 +355,14 @@
 
               <div class="flex space-x-8 ">
 
-                <button class="btn btn-outline px-10" data-row="C" data-seat="1">C1</button>
-                <button class="btn btn-outline px-10" data-row="C" data-seat="2">C2</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="C" data-seat="1">C1</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="C" data-seat="2">C2</button>
 
 
               </div>
               <div class="flex space-x-8">
-                <button class="btn btn-outline px-10" data-row="C" data-seat="3">C3</button>
-                <button class="btn btn-outline px-10" data-row="C" data-seat="4">C4</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="C" data-seat="3">C3</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="C" data-seat="4">C4</button>
 
               </div>
 
@@ -377,14 +377,14 @@
 
               <div class="flex space-x-8 ">
 
-                <button class="btn btn-outline px-10" data-row="D" data-seat="1">D1</button>
-                <button class="btn btn-outline px-10" data-row="D" data-seat="2">D2</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="D" data-seat="1">D1</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="D" data-seat="2">D2</button>
 
 
               </div>
               <div class="flex space-x-8">
-                <button class="btn btn-outline px-10" data-row="D" data-seat="3">D3</button>
-                <button class="btn btn-outline px-10" data-row="D" data-seat="4">D4</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="D" data-seat="3">D3</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="D" data-seat="4">D4</button>
 
               </div>
 
@@ -399,14 +399,14 @@
 
               <div class="flex space-x-8 ">
 
-                <button class="btn btn-outline px-10" data-row="E" data-seat="1">E1</button>
-                <button class="btn btn-outline px-10" data-row="E" data-seat="2">E2</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="E" data-seat="1">E1</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="E" data-seat="2">E2</button>
 
 
               </div>
               <div class="flex space-x-8">
-                <button class="btn btn-outline px-10" data-row="E" data-seat="3">E3</button>
-                <button class="btn btn-outline px-10" data-row="E" data-seat="4">E4</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="E" data-seat="3">E3</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="E" data-seat="4">E4</button>
 
               </div>
 
@@ -421,14 +421,14 @@
 
               <div class="flex space-x-8 ">
 
-                <button class="btn btn-outline px-10" data-row="F" data-seat="1">F1</button>
-                <button class="btn btn-outline px-10" data-row="F" data-seat="2">F2</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="F" data-seat="1">F1</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="F" data-seat="2">F2</button>
 
 
               </div>
               <div class="flex space-x-8">
-                <button class="btn btn-outline px-10" data-row="F" data-seat="3">F3</button>
-                <button class="btn btn-outline px-10" data-row="F" data-seat="4">F4</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="F" data-seat="3">F3</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="F" data-seat="4">F4</button>
 
               </div>
 
@@ -443,14 +443,14 @@
 
               <div class="flex space-x-8 ">
 
-                <button class="btn btn-outline px-10" data-row="G" data-seat="1">G1</button>
-                <button class="btn btn-outline px-10" data-row="G" data-seat="2">G2</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="G" data-seat="1">G1</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="G" data-seat="2">G2</button>
 
 
               </div>
               <div class="flex space-x-8">
-                <button class="btn btn-outline px-10" data-row="G" data-seat="3">G3</button>
-                <button class="btn btn-outline px-10" data-row="G" data-seat="4">G4</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="G" data-seat="3">G3</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="G" data-seat="4">G4</button>
 
               </div>
 
@@ -465,14 +465,14 @@
 
               <div class="flex space-x-8 ">
 
-                <button class="btn btn-outline px-10" data-row="H" data-seat="1">H1</button>
-                <button class="btn btn-outline px-10" data-row="H" data-seat="2">H2</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="H" data-seat="1">H1</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="H" data-seat="2">H2</button>
 
 
               </div>
               <div class="flex space-x-8">
-                <button class="btn btn-outline px-10" data-row="H" data-seat="3">H3</button>
-                <button class="btn btn-outline px-10" data-row="H" data-seat="4">H4</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="H" data-seat="3">H3</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="H" data-seat="4">H4</button>
 
               </div>
 
@@ -487,14 +487,14 @@
 
               <div class="flex space-x-8 ">
 
-                <button class="btn btn-outline px-11" data-row="I" data-seat="1">I1</button>
-                <button class="btn btn-outline px-10" data-row="I" data-seat="2">I2</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="I" data-seat="1">I1</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="I" data-seat="2">I2</button>
 
 
               </div>
               <div class="flex space-x-8">
-                <button class="btn btn-outline px-11" data-row="I" data-seat="3">I3</button>
-                <button class="btn btn-outline px-11" data-row="I" data-seat="4">I4</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="I" data-seat="3">I3</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="I" data-seat="4">I4</button>
 
               </div>
 
@@ -509,14 +509,14 @@
 
               <div class="flex space-x-8 ">
 
-                <button class="btn btn-outline px-11" data-row="J" data-seat="1">J1</button>
-                <button class="btn btn-outline px-11" data-row="J" data-seat="2">J2</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="J" data-seat="1">J1</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="J" data-seat="2">J2</button>
 
 
               </div>
               <div class="flex space-x-8">
-                <button class="btn btn-outline px-11" data-row="J" data-seat="3">J3</button>
-                <button class="btn btn-outline px-11" data-row="J" data-seat="4">J4</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="J" data-seat="3">J3</button>
+                <button class="btn btn-outline px-8 hover:bg-[#1DD100]" data-row="J" data-seat="4">J4</button>
 
               </div>
 

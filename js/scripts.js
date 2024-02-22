@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const phoneNumber = document.getElementById('floating_phone').value;
 
         if (passengerName && phoneNumber) {
-            // Display the modal
+            
             const modal = document.getElementById('modalDiv');
             
         } else {
