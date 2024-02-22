@@ -538,7 +538,7 @@
                   <thead>
                     <tr>
 
-                      <th id="seatcount" class="">Seat</th>
+                      <th class="">Seat <span class="bg-[#1DD100] text-white px-1" id="seatsAdd">0</span></th>
                       <th>Class</th>
                       <th class="text-right">Price</th>
                     </tr>
@@ -578,17 +578,17 @@
               <!-- Have any coupon?  -->
               <div>
 
-                <form class="max-w-md mx-auto">
-                  <label for="default-search"
+                <form id="applyCouponForm"  class="max-w-md mx-auto">
+                  <label for="couponCode"
                     class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Apply</label>
                   <div class="relative">
                     <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
 
                     </div>
-                    <input type="search" id="default-search"
+                    <input id="couponCode" type="search" id="default-search"
                       class="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                       placeholder="Have any coupon?" required />
-                    <button type="submit"
+                    <button id="applyCoupon" type="submit"
                       class="text-white absolute end-2.5 bottom-2.5 bg-[#1DD100] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Apply</button>
                   </div>
                 </form>
@@ -596,8 +596,8 @@
 
               </div>
               <div class="flex justify-between pt-4 px-4">
-                <h1>Grand Total</h1>
-                <h1>BDT 1100</h1>
+                <h1 >Grand Total</h1>
+                <h1 id="grandTotal">BDT 1100</h1>
               </div>
               <div>
 
